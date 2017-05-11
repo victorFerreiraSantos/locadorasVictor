@@ -25,7 +25,7 @@
                 <option value="Admim">Administrador</option>
                 <option value="Func">Funcionário</option>
             </select><br>
-            Nome: <input type="text" name="txtNome" value="${filmes.codigo}"><br>
+            Nome: <input type="text" name="txtNome" value="${usuario.login}"><br>
             Login: <input type="text" name="txtLogin" value=""><br>
             Senha: <input type="password" name="txtSenha"><br>
             <input type="submit" value="Logar">
